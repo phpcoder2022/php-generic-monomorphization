@@ -1,0 +1,25 @@
+{
+    "name": "phpcoder2022/php-generic-monomorphization",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phpcoder2022\\PhpGenericMonomorphization\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "phpcoder2022",
+            "email": "phpcoder2022@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "scripts": {
+        "phpcs": "./vendor/bin/phpcs",
+        "create-generics": "php ./dev-utils/create-generics-launcher.php",
+        "delete-generics": "php ./dev-utils/delete-generics-launcher.php"
+    }
+}
