@@ -1,0 +1,5 @@
+{
+    "phpSniffer.autoDetect": true,
+    "phpSniffer.run": "onType",
+    "phpSniffer.standard": "PSR12"
+}
